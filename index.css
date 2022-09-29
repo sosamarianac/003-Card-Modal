@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 600px;
+    height: 700px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 20px 21px -10px rgba(255,255,255,0.53);
+    -webkit-box-shadow: 10px 20px 21px -10px rgba(255,255,255,0.53);
+    -moz-box-shadow: 10px 20px 21px -10px rgba(255,255,255,0.53);
+
+}
+.borde {
+    width: 100%;
+    height: 10%;
+    background-color: #203774;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.info {
+    width: 100%;
+    height: 90%;
+}
+.fecha {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.tarjetas {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.numeros   {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sep {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+.hoy    {
+    font-size: 12px;
+    font-weight: 800;
+}
+.tarj {
+    width: 65%;
+    height: 40%;
+    background-color: #203774;
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: 10px 20px 21px -10px rgba(32,55,116,0.46);
+    -webkit-box-shadow: 10px 20px 21px -10px rgba(32,55,116,0.46);
+    -moz-box-shadow: 10px 20px 21px -10px rgba(32,55,116,0.46);
+}
+.up {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.horario {
+    margin: 0;
+    font-size: 10px;
+}
+.odon {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tol {
+    margin: 0px 0px 12px;
+    font-weight: 800;
+}
+.boton {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 60%;
+    height: 45%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+}
+.esp {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    margin-left: 20px;
+}
+img {
+    width: 10%;
+    height: 40%;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #4868bd;
+}
